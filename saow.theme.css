@@ -1,17 +1,9 @@
 /**
- * @name S.A.o.W.
- * @author Gibbu#1211
- * @version 2.0.0
- * @description Display your picture of choice with adjustable blur and brightness.
- * @source https://github.com/DiscordStyles/FrostedGlass
- * @invite ZHthyCw
- * @donate https://paypal.me/IanRGibson
- * @website https://gibbu.me
- * @authorId 174868361040232448
- * @BDEditor Frosted Glass
+ * @name S.A.O.W.
+ * @author ItalianHistorian
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;300;400;500;700&display=swap');
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
 
@@ -20,30 +12,30 @@
   --background-image-blur: 5px;
   --background-image-size: cover;
   --background-image-position: center;
-  --popout-image: transparent;
-  --popout-image-blur: 16px;
+  --popout-image: var(--background-image);
+  --popout-image-blur: 15px;
   --popout-image-size: cover;
   --popout-image-position: center;
   --overlay-image: var(--background-image);
-  --overlay-image-blur: 5px;
+  --overlay-image-blur: 20px;
   --overlay-image-size: cover;
   --overlay-image-position: center;
-  --home-button-image: url('https://i.imgur.com/Gosr3x2.png');
-  --home-button-size: cover;
+  --home-button-image: url('https://i.imgur.com/SFiRjHt.png');
+  --home-button-size: 100%;
   --home-button-position: center;
-  --serverlist-brightness: 0.5;
-  --left-brightness: 0.5;
+  --serverlist-brightness: 0.4;
+  --left-brightness: 0.4;
   --middle-brightness: 0.5;
-  --right-brightness: 0.5;
-  --overlay-brightness: 0.88;
-  --gradient-primary: 189,64,54;
-  --gradient-secondary: 154,57,49;
+  --right-brightness: 0.4;
+  --overlay-brightness: 0.9;
+  --gradient-primary: 120,33,27;
+  --gradient-secondary: 104,22,16;
   --link-colour: #FFC107;
   --scrollbar-colour: rgba(255,255,255,0.05);
-  --gradient-direction: 360deg;
-  --tint-colour: 244,67,54;
+  --gradient-direction: 0deg;
+  --tint-colour: 255,51,159;
   --tint-brightness: 0;
-  --font: Roboto Condensed;
+  --font: Ubuntu;
   --window-padding: 0px;
   --window-roundness: 0px;
   --update-notice-1: none;
